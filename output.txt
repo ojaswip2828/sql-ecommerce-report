@@ -1,0 +1,371 @@
++------------------+---------+
+| name             | price   |
++------------------+---------+
+| Air Fryer        | 5499.00 |
+| Smartwatch       | 4999.00 |
+| Coffee Maker     | 3499.00 |
+| Dumbbell Set     | 2999.00 |
+| Wireless Earbuds | 2499.00 |
++------------------+---------+
++---------------------+--------+
+| name                | price  |
++---------------------+--------+
+| Notebook Pack       | 249.00 |
+| Python Crash Course | 699.00 |
+| Desk Lamp           | 799.00 |
+| SQL Cookbook        | 899.00 |
+| Yoga Mat            | 999.00 |
++---------------------+--------+
++----------+-------------+------------+-----------+
+| order_id | customer_id | order_date | status    |
++----------+-------------+------------+-----------+
+|        9 |           3 | 2026-08-01 | delivered |
+|       10 |           7 | 2026-08-05 | delivered |
+|       11 |          10 | 2026-08-11 | delivered |
+|       12 |           5 | 2026-08-18 | pending   |
+|       13 |           1 | 2026-08-22 | delivered |
++----------+-------------+------------+-----------+
++--------------+-----------+
+| name         | city      |
++--------------+-----------+
+| Aarav Sharma | Bengaluru |
+| Kabir Singh  | Bengaluru |
+| Ananya Gupta | Delhi     |
+| Rohan Mehta  | Delhi     |
++--------------+-----------+
++--------------+
+| name         |
++--------------+
+| Smartwatch   |
+| SQL Cookbook |
++--------------+
++-----------+--------+
+| status    | orders |
++-----------+--------+
+| delivered |     13 |
+| cancelled |      1 |
+| shipped   |      1 |
+| pending   |      1 |
++-----------+--------+
++---------------------+------------+
+| name                | units_sold |
++---------------------+------------+
+| Notebook Pack       |          7 |
+| SQL Cookbook        |          5 |
+| Wireless Earbuds    |          4 |
+| Python Crash Course |          4 |
+| Power Bank          |          4 |
++---------------------+------------+
++------------------+---------+
+| name             | revenue |
++------------------+---------+
+| Smartwatch       | 9998.00 |
+| Wireless Earbuds | 9996.00 |
+| Dumbbell Set     | 5998.00 |
+| Power Bank       | 5996.00 |
+| SQL Cookbook     | 4495.00 |
++------------------+---------+
++-------------+----------+
+| category    | revenue  |
++-------------+----------+
+| Electronics | 25990.00 |
+| Fitness     |  9994.00 |
+| Books       |  9034.00 |
+| Home        |  5896.00 |
++-------------+----------+
++-------------+--------------+---------+
+| category    | product      | revenue |
++-------------+--------------+---------+
+| Books       | SQL Cookbook | 4495.00 |
+| Electronics | Smartwatch   | 9998.00 |
+| Fitness     | Dumbbell Set | 5998.00 |
+| Home        | Coffee Maker | 3499.00 |
++-------------+--------------+---------+
++-----------+
+| name      |
++-----------+
+| Air Fryer |
++-----------+
++------------------+---------+
+| name             | revenue |
++------------------+---------+
+| Smartwatch       | 9998.00 |
+| Wireless Earbuds | 9996.00 |
+| Dumbbell Set     | 5998.00 |
+| Power Bank       | 5996.00 |
++------------------+---------+
++----------------+-------+
+| name           | stock |
++----------------+-------+
+| Air Fryer      |     0 |
+| Mystery Gadget |    10 |
+| Coffee Maker   |    20 |
++----------------+-------+
++---------+----------+
+| month   | revenue  |
++---------+----------+
+| 2026-06 | 11739.00 |
+| 2026-07 | 13490.00 |
+| 2026-08 | 19491.00 |
+| 2026-09 |  8193.00 |
++---------+----------+
++--------------+-------------+
+| name         | total_spend |
++--------------+-------------+
+| Ananya Gupta |     9195.00 |
+| Meera Nair   |     8696.00 |
+| Aarav Sharma |     8293.00 |
+| Diya Patel   |     7095.00 |
+| Kabir Singh  |     6497.00 |
++--------------+-------------+
++--------------+-----------------+
+| name         | avg_order_value |
++--------------+-----------------+
+| Arjun Rao    |         4997.00 |
+| Ananya Gupta |         4597.50 |
+| Meera Nair   |         4348.00 |
+| Diya Patel   |         3547.50 |
+| Kabir Singh  |         3248.50 |
+| Rohan Mehta  |         3171.00 |
+| Aarav Sharma |         2764.33 |
+| Sneha Iyer   |         1798.00 |
++--------------+-----------------+
++--------------+-------------+
+| name         | total_spend |
++--------------+-------------+
+| Ananya Gupta |     9195.00 |
+| Meera Nair   |     8696.00 |
+| Aarav Sharma |     8293.00 |
+| Diya Patel   |     7095.00 |
+| Kabir Singh  |     6497.00 |
+| Rohan Mehta  |     6342.00 |
++--------------+-------------+
++--------------+
+| name         |
++--------------+
+| Ishita Das   |
+| Vikram Joshi |
++--------------+
++--------------+--------+
+| name         | orders |
++--------------+--------+
+| Aarav Sharma |      3 |
+| Diya Patel   |      2 |
+| Rohan Mehta  |      2 |
+| Sneha Iyer   |      2 |
+| Kabir Singh  |      2 |
+| Meera Nair   |      2 |
+| Ananya Gupta |      2 |
++--------------+--------+
++-----------+----------+
+| city      | revenue  |
++-----------+----------+
+| Delhi     | 15537.00 |
+| Bengaluru | 14790.00 |
+| Kochi     |  8696.00 |
+| Mumbai    |  7095.00 |
+| Hyderabad |  4997.00 |
+| Chennai   |  1798.00 |
++-----------+----------+
++--------------+-------------+------------+
+| name         | first_order | last_order |
++--------------+-------------+------------+
+| Aarav Sharma | 2026-06-03  | 2026-08-22 |
+| Diya Patel   | 2026-06-10  | 2026-07-25 |
+| Rohan Mehta  | 2026-06-15  | 2026-08-01 |
+| Sneha Iyer   | 2026-07-08  | 2026-09-15 |
+| Kabir Singh  | 2026-07-12  | 2026-08-18 |
+| Meera Nair   | 2026-07-20  | 2026-09-03 |
+| Arjun Rao    | 2026-08-05  | 2026-08-05 |
+| Ananya Gupta | 2026-08-11  | 2026-09-09 |
++--------------+-------------+------------+
++--------------+---------+------------+
+| name         | total   | spend_rank |
++--------------+---------+------------+
+| Ananya Gupta | 9195.00 |          1 |
+| Meera Nair   | 8696.00 |          2 |
+| Aarav Sharma | 8293.00 |          3 |
+| Diya Patel   | 7095.00 |          4 |
+| Kabir Singh  | 6497.00 |          5 |
+| Rohan Mehta  | 6342.00 |          6 |
+| Arjun Rao    | 4997.00 |          7 |
+| Sneha Iyer   | 1798.00 |          8 |
++--------------+---------+------------+
++--------------+---------+---------+
+| name         | total   | segment |
++--------------+---------+---------+
+| Ananya Gupta | 9195.00 | Gold    |
+| Meera Nair   | 8696.00 | Gold    |
+| Aarav Sharma | 8293.00 | Gold    |
+| Diya Patel   | 7095.00 | Silver  |
+| Kabir Singh  | 6497.00 | Silver  |
+| Rohan Mehta  | 6342.00 | Silver  |
+| Arjun Rao    | 4997.00 | Silver  |
+| Sneha Iyer   | 1798.00 | Bronze  |
++--------------+---------+---------+
++------------+
+| name       |
++------------+
+| Diya Patel |
+| Sneha Iyer |
+| Arjun Rao  |
++------------+
++--------------+------------+
+| name         | phone      |
++--------------+------------+
+| Aarav Sharma | 9876500001 |
+| Diya Patel   | N/A        |
+| Rohan Mehta  | 9876500003 |
+| Sneha Iyer   | N/A        |
+| Kabir Singh  | 9876500005 |
+| Meera Nair   | 9876500006 |
+| Arjun Rao    | N/A        |
+| Ishita Das   | 9876500008 |
+| Vikram Joshi | 9876500009 |
+| Ananya Gupta | 9876500010 |
++--------------+------------+
++----------------+
+| name           |
++----------------+
+| Mystery Gadget |
++----------------+
++---------------+------------+---------------+
+| all_customers | with_phone | without_phone |
++---------------+------------+---------------+
+|            10 |          7 |             3 |
++---------------+------------+---------------+
++---------------+--------+
+| coupon_status | orders |
++---------------+--------+
+| Coupon used   |      3 |
+| No coupon     |     13 |
++---------------+--------+
++---------------------+-------+------------+----------------+
+| name                | stock | units_sold | sold_per_stock |
++---------------------+-------+------------+----------------+
+| Wireless Earbuds    |    50 |          4 |           0.08 |
+| Smartwatch          |    30 |          2 |           0.07 |
+| Power Bank          |   100 |          4 |           0.04 |
+| Python Crash Course |    80 |          4 |           0.05 |
+| SQL Cookbook        |    60 |          5 |           0.08 |
+| Desk Lamp           |    40 |          3 |           0.08 |
+| Coffee Maker        |    20 |          2 |           0.10 |
+| Yoga Mat            |    70 |          4 |           0.06 |
+| Dumbbell Set        |    25 |          2 |           0.08 |
+| Notebook Pack       |   200 |          7 |           0.04 |
+| Mystery Gadget      |    10 |          1 |           0.10 |
+| Air Fryer           |     0 |          0 |           NULL |
++---------------------+-------+------------+----------------+
++-----------+--------+
+| coupon    | orders |
++-----------+--------+
+| NO COUPON |     13 |
+| WELCOME10 |      2 |
+| FIT15     |      1 |
++-----------+--------+
++----------+--------------+---------------------+----------+------------+
+| order_id | customer     | product             | quantity | line_total |
++----------+--------------+---------------------+----------+------------+
+|        1 | Aarav Sharma | Python Crash Course |        2 |    1398.00 |
+|        1 | Aarav Sharma | Wireless Earbuds    |        1 |    2499.00 |
+|        2 | Diya Patel   | Smartwatch          |        1 |    4999.00 |
+|        3 | Rohan Mehta  | Desk Lamp           |        2 |    1598.00 |
+|        3 | Rohan Mehta  | Notebook Pack       |        5 |    1245.00 |
+|        4 | Aarav Sharma | Power Bank          |        1 |    1499.00 |
+|        4 | Aarav Sharma | SQL Cookbook        |        1 |     899.00 |
+|        5 | Sneha Iyer   | Coffee Maker        |        1 |    3499.00 |
+|        6 | Kabir Singh  | Dumbbell Set        |        1 |    2999.00 |
+|        6 | Kabir Singh  | Yoga Mat            |        1 |     999.00 |
++----------+--------------+---------------------+----------+------------+
++-------------+----------+
+| category    | products |
++-------------+----------+
+| Electronics |        3 |
+| Books       |        3 |
+| Home        |        3 |
+| Fitness     |        2 |
+| Fashion     |        0 |
++-------------+----------+
++---------------------+---------------+
+| name                | category      |
++---------------------+---------------+
+| Notebook Pack       | Books         |
+| Python Crash Course | Books         |
+| SQL Cookbook        | Books         |
+| Power Bank          | Electronics   |
+| Smartwatch          | Electronics   |
+| Wireless Earbuds    | Electronics   |
+| Dumbbell Set        | Fitness       |
+| Yoga Mat            | Fitness       |
+| Air Fryer           | Home          |
+| Coffee Maker        | Home          |
+| Desk Lamp           | Home          |
+| Mystery Gadget      | Uncategorised |
++---------------------+---------------+
++--------------+--------+
+| name         | orders |
++--------------+--------+
+| Aarav Sharma |      3 |
+| Ananya Gupta |      2 |
+| Diya Patel   |      2 |
+| Kabir Singh  |      2 |
+| Meera Nair   |      2 |
+| Rohan Mehta  |      2 |
+| Sneha Iyer   |      2 |
+| Arjun Rao    |      1 |
+| Ishita Das   |      0 |
+| Vikram Joshi |      0 |
++--------------+--------+
++--------------+--------------+-----------+
+| customer_1   | customer_2   | city      |
++--------------+--------------+-----------+
+| Aarav Sharma | Kabir Singh  | Bengaluru |
+| Rohan Mehta  | Ananya Gupta | Delhi     |
++--------------+--------------+-----------+
++-----------+-------------+---------+
+| city      | category    | revenue |
++-----------+-------------+---------+
+| Delhi     | Electronics | 6498.00 |
+| Bengaluru | Electronics | 6497.00 |
+| Bengaluru | Fitness     | 5996.00 |
+| Delhi     | Home        | 5097.00 |
+| Mumbai    | Electronics | 4999.00 |
++-----------+-------------+---------+
++--------------+
+| name         |
++--------------+
+| Aarav Sharma |
+| Meera Nair   |
+| Kabir Singh  |
+| Diya Patel   |
+| Ananya Gupta |
+| Arjun Rao    |
++--------------+
++-----------+--------+-------------+
+| status    | orders | order_value |
++-----------+--------+-------------+
+| delivered |     13 |    48318.00 |
+| cancelled |      1 |     3499.00 |
+| shipped   |      1 |     2096.00 |
+| pending   |      1 |     2499.00 |
++-----------+--------+-------------+
++-------------+----------------------+-----------------+
+| TABLE_NAME  | CONSTRAINT_NAME      | CONSTRAINT_TYPE |
++-------------+----------------------+-----------------+
+| categories  | PRIMARY              | PRIMARY KEY     |
+| categories  | name                 | UNIQUE          |
+| customers   | PRIMARY              | PRIMARY KEY     |
+| customers   | email                | UNIQUE          |
+| order_items | chk_items_qty        | CHECK           |
+| order_items | chk_items_price      | CHECK           |
+| order_items | fk_items_order       | FOREIGN KEY     |
+| order_items | fk_items_product     | FOREIGN KEY     |
+| order_items | PRIMARY              | PRIMARY KEY     |
+| orders      | chk_orders_status    | CHECK           |
+| orders      | fk_orders_customer   | FOREIGN KEY     |
+| orders      | PRIMARY              | PRIMARY KEY     |
+| products    | chk_products_price   | CHECK           |
+| products    | chk_products_stock   | CHECK           |
+| products    | fk_products_category | FOREIGN KEY     |
+| products    | PRIMARY              | PRIMARY KEY     |
++-------------+----------------------+-----------------+
